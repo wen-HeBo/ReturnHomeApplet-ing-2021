@@ -1,0 +1,7 @@
+<!--pages/message/message.wxml-->
+<view>
+  <image mode="widthFix" src="../../images/notice.png"></image>
+  <image mode="widthFix" src="../../images/notice.png"></image>
+  <image mode="widthFix" src="../../images/notice.png"></image>
+  <image mode="widthFix" src="../../images/notice.png"></image>
+</view>

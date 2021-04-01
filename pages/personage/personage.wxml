@@ -1,0 +1,41 @@
+<!--pages/personage/personage.wxml-->
+<view>
+  <view class="usimg">
+    <image class="user1" mode="widthFix" src="../../images/user1.png"></image>
+  </view>
+</view>
+<view class="uInfo">
+  <view class="info">
+    <navigator url="/pages/history/history" open-type="navigate">
+      <image mode="widthFix" src="../../images/history.png"></image>
+    </navigator>
+  </view>
+  <view class="line"></view>
+  <view class="info">
+   <image mode="widthFix" src="../../images/update_materia.png"></image>
+  </view>
+  <view class="line"></view>
+  <view class="info">
+    <navigator url="/pages/learning/learning" open-type="navigate">
+      <image mode="widthFix" src="../../images/learning.png"></image>
+    </navigator>
+  </view>
+  <view class="line"></view>
+  <view class="info">
+    <navigator url="/pages/oder/oder" open-type="navigate">
+      <image mode="widthFix" src="../../images/order.png"></image>
+    </navigator>
+  </view>
+  <view class="line"></view>
+  <view class="info">
+   <image mode="widthFix" src="../../images/guidance.png"></image>
+  </view>
+  <view class="line"></view>
+  <view class="info">
+    <image mode="widthFix" src="../../images/advice.png"></image>
+  </view>
+  <view class="line"></view>
+  <view class="info">
+    <image mode="widthFix" src="../../images/set_up.png"></image>
+  </view>
+</view>

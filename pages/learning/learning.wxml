@@ -1,0 +1,23 @@
+<!--pages/learning/learning.wxml-->
+<image class="back" mode="widthFix" src="../../images/lerning1.png"></image>
+<view class="learn">
+  <image mode="widthFix" src="../../images/all.png" class="all"></image>
+  <view class="info">
+    <navigator url="/pages/learning1/learning1" open-type="navigate">
+     <image mode="widthFix" src="../../images/l1.png"></image>
+    </navigator>
+  </view>
+  <view class="line"></view>
+  <view class="info">
+    <image mode="widthFix" src="../../images/l2.png"></image>
+  </view>
+  <view class="line"></view>
+  <view class="info">
+    <image mode="widthFix" src="../../images/l3.png"></image>
+  </view>
+  <view class="line"></view>
+  <view class="info">
+    <image mode="widthFix" src="../../images/l4.png"></image>
+  </view>
+  <view class="line"></view>
+</view>

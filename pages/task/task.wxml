@@ -1,0 +1,155 @@
+<!--pages/task/task.wxml-->
+<view class="alls">
+  <!-- 搜索框开始 -->
+  <SearchInput style="position: fixed;top: 0;width: 100%;z-index: 2;"></SearchInput>
+  <!-- 搜索框结束 -->
+
+  <!-- 监听事件 -->
+  <Tabs tabs="{{tabs}}" bindtabsItemChange="handleTabsItemChange" >
+    <block wx:if="{{tabs[0].isActive}}">
+     <scroll-view scroll-y scroll-top="{{scrollTop}}">
+      <view class="task">
+        <view class="LefttTask">
+          <text>任务等级：一级 </text>
+          <image src="../../images/icons/task1.png"></image>
+        </view>
+        <text>任务数量：2</text>
+      </view >
+      <navigator class="taskI" url="/pages/details/details" open-type="navigate">
+        <image mode="widthFix" src="../../images/taskF.png" class="taskImg"></image>
+      </navigator>
+      <navigator class="taskI" url="/pages/details/details" open-type="navigate">
+        <image mode="widthFix" src="../../images/taskF.png" class="taskImg"></image>
+      </navigator>
+
+      <view class="task">
+        <view class="LefttTask">
+          <text>任务等级：二级 </text>
+          <image src="../../images/icons/task2.png"></image>
+        </view>
+        <text>任务数量：2</text>
+      </view >
+
+      <navigator class="taskI" url="/pages/details/details" open-type="navigate">
+        <image mode="widthFix" src="../../images/taskS.png" class="taskImg"></image>
+      </navigator>
+      <navigator class="taskI" url="/pages/details/details" open-type="navigate">
+        <image mode="widthFix" src="../../images/taskS.png" class="taskImg"></image>
+      </navigator>
+
+      <view class="task">
+        <view class="LefttTask">
+          <text>任务等级：三级 </text>
+          <image src="../../images/icons/task3.png"></image>
+        </view>
+        <text>任务数量：2</text>
+      </view >
+
+      <navigator class="taskI" url="/pages/details/details" open-type="navigate">
+        <image mode="widthFix" src="../../images/taskTH.png" class="taskImg"></image>
+      </navigator>
+      <navigator class="taskI" url="/pages/details/details" open-type="navigate">
+        <image mode="widthFix" src="../../images/taskTH.png" class="taskImg"></image>
+      </navigator>
+   
+     </scroll-view>
+    </block>
+    <block wx:elif="{{tabs[1].isActive}}">
+      <scroll-view scroll-y scroll-top="{{scrollTop}}">
+      <view class="task">
+        <view class="LefttTask">
+          <text>任务等级：一级 </text>
+          <image src="../../images/icons/task1.png"></image>
+        </view>
+        <text>任务数量：2</text>
+      </view >
+      <navigator class="taskI" url="/pages/details/details" open-type="navigate">
+        <image mode="widthFix" src="../../images/taskF.png" class="taskImg"></image>
+      </navigator>
+      <navigator class="taskI" url="/pages/details/details" open-type="navigate">
+        <image mode="widthFix" src="../../images/taskF.png" class="taskImg"></image>
+      </navigator>
+
+      <view class="task">
+        <view class="LefttTask">
+          <text>任务等级：二级 </text>
+          <image src="../../images/icons/task2.png"></image>
+        </view>
+        <text>任务数量：2</text>
+      </view >
+
+      <navigator class="taskI" url="/pages/details/details" open-type="navigate">
+        <image mode="widthFix" src="../../images/taskS.png" class="taskImg"></image>
+      </navigator>
+      <navigator class="taskI" url="/pages/details/details" open-type="navigate">
+        <image mode="widthFix" src="../../images/taskS.png" class="taskImg"></image>
+      </navigator>
+
+      <view class="task">
+        <view class="LefttTask">
+          <text>任务等级：三级 </text>
+          <image src="../../images/icons/task3.png"></image>
+        </view>
+        <text>任务数量：2</text>
+      </view >
+
+      <navigator class="taskI" url="/pages/details/details" open-type="navigate">
+        <image mode="widthFix" src="../../images/taskTH.png" class="taskImg"></image>
+      </navigator>
+      <navigator class="taskI" url="/pages/details/details" open-type="navigate">
+        <image mode="widthFix" src="../../images/taskTH.png" class="taskImg"></image>
+      </navigator>
+   
+     </scroll-view>
+    </block>
+    <block wx:else="{{tabs[2].isActive}}"><scroll-view scroll-y scroll-top="{{scrollTop}}">
+      <view class="task">
+        <view class="LefttTask">
+          <text>任务等级：一级 </text>
+          <image src="../../images/icons/task1.png"></image>
+        </view>
+        <text>任务数量：2</text>
+      </view >
+      <navigator class="taskI" url="/pages/details/details" open-type="navigate">
+        <image mode="widthFix" src="../../images/taskF.png" class="taskImg"></image>
+      </navigator>
+      <navigator class="taskI" url="/pages/details/details" open-type="navigate">
+        <image mode="widthFix" src="../../images/taskF.png" class="taskImg"></image>
+      </navigator>
+
+      <view class="task">
+        <view class="LefttTask">
+          <text>任务等级：二级 </text>
+          <image src="../../images/icons/task2.png"></image>
+        </view>
+        <text>任务数量：2</text>
+      </view >
+
+      <navigator class="taskI" url="/pages/details/details" open-type="navigate">
+        <image mode="widthFix" src="../../images/taskS.png" class="taskImg"></image>
+      </navigator>
+      <navigator class="taskI" url="/pages/details/details" open-type="navigate">
+        <image mode="widthFix" src="../../images/taskS.png" class="taskImg"></image>
+      </navigator>
+
+      <view class="task">
+        <view class="LefttTask">
+          <text>任务等级：三级 </text>
+          <image src="../../images/icons/task3.png"></image>
+        </view>
+        <text>任务数量：2</text>
+      </view >
+
+      <navigator class="taskI" url="/pages/details/details" open-type="navigate">
+        <image mode="widthFix" src="../../images/taskTH.png" class="taskImg"></image>
+      </navigator>
+      <navigator class="taskI" url="/pages/details/details" open-type="navigate">
+        <image mode="widthFix" src="../../images/taskTH.png" class="taskImg"></image>
+      </navigator>
+   
+     </scroll-view></block>
+  </Tabs>
+
+  
+
+</view>

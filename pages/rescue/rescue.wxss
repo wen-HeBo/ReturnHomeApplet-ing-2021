@@ -1,0 +1,21 @@
+/* pages/rescue/rescue.wxss */
+page{
+  height: 100%;
+  width: 100%;
+}
+.main{
+  padding: 15px 20px;
+  position: relative;
+  top: -440px;
+  background-color: white;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.main view{
+  display: flex;
+  margin: 7px 0;
+}
+.main text{
+  flex:1;
+}

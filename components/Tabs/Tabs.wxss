@@ -1,0 +1,28 @@
+/* components/Tabs/Tabs.wxss */
+/* components/Tabs/Tabs.wxss */
+.tabs .tabs_tittle {
+  display: flex;
+  padding-top: 20rpx;
+  background-color: white;
+  z-index: 1;
+}
+.tabs .tabs_tittle .tittle_item{
+  padding: 15rpx 0;
+  display: flex;
+  margin: 0 7rpx;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  /* color: #999999; */
+}
+.tabSelect{
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 10rpx 0;
+  margin: 0 7rpx;
+}
+.active{
+  color:  #2A7EFB;
+  border-bottom: 5rpx solid #2A7EFB;
+}

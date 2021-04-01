@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/task/task",
+    "pages/message/message",
+    "pages/rescue/rescue",
+    "pages/personage/personage",
+    "pages/details/details",
+    "pages/learning/learning",
+    "pages/history/history",
+    "pages/learning1/learning1",
+    "pages/oder/oder",
+    "pages/map/map"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2A7EFB",
+    "navigationBarTitleText": "归家",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#CBCBCB",
+    "selectedColor": "#1DA0FD",
+    "list": [{
+      "pagePath": "pages/task/task",
+      "text": "任务",
+      "iconPath": "/images/icons/task.png",
+      "selectedIconPath": "/images/icons/task-o.png"
+    },
+    {
+      "pagePath": "pages/message/message",
+      "text": "消息",
+      "iconPath": "/images/icons/message.png",
+      "selectedIconPath": "/images/icons/message-o.png"
+    },
+    {
+      "pagePath": "pages/rescue/rescue",
+      "text": "救援",
+      "iconPath": "/images/icons/rescue.png",
+      "selectedIconPath": "/images/icons/rescue.png"
+    },
+    {
+      "pagePath": "pages/personage/personage",
+      "text": "个人",
+      "iconPath": "/images/icons/personage.png",
+      "selectedIconPath": "/images/icons/personage-o.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

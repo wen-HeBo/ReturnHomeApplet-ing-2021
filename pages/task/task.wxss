@@ -1,0 +1,37 @@
+/* pages/task/task.wxss */
+.task{
+  margin-top: 30rpx;
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+  border-bottom: 3rpx solid #eeeeee;
+  padding-bottom: 10rpx;
+}
+.task image{
+  width: 30rpx;
+  height: 30rpx;
+}
+.task .LefttTask{
+  flex:1;
+  display: flex;
+  align-items: center;
+}
+.task text{
+  margin: 0 30rpx;
+}
+.taskI{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30rpx;
+}
+.taskImg{
+  width: 95%;
+  border-radius: 10rpx;
+}
+scroll-view{
+  position: relative;
+  top: 96px;
+  height: 80%;
+  z-index: 0; 
+}

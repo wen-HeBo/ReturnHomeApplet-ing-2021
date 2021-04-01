@@ -1,0 +1,26 @@
+<!--pages/rescue/rescue.wxml-->
+<view style="height:100%">
+  <image  src="../../images/map.png" style="height:100%; width:100%; z-index: 0;"></image>
+  <view class="main">
+    <view>
+      <text>队员资格认证</text>
+      <icon type="success" style="display:{{y1}};"></icon>
+      <image mode="widthFix" src="../../images/ing2.gif" style="width:18px;display:{{i1}};"></image>
+    </view>
+    <view>
+      <text>开启定位</text>
+      <icon type="success" style="display:{{y2}};"></icon>
+      <image mode="widthFix" src="../../images/ing2.gif" style="width:18px;display:{{i2}};"></image>
+    </view>
+    <view>
+      <text>地图初始化</text>
+      <icon type="success" style="display:{{y3}};"></icon>
+      <image mode="widthFix" src="../../images/ing2.gif" style="width:18px;display:{{i3}};"></image>
+    </view>
+    <view>
+      <text>等待后台分配救援范围</text>
+      <icon type="success" style="display:{{y4}};"></icon>
+      <image mode="widthFix" src="../../images/ing2.gif" style="width:18px;display:{{i4}};"></image>
+    </view>
+  </view>
+</view>

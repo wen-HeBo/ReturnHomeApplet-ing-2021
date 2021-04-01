@@ -1,0 +1,11 @@
+/* pages/message/message.wxss */
+image{
+  width: 350px;
+  margin-top: 15px;
+}
+view{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

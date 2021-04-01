@@ -1,0 +1,64 @@
+<!--pages/learning1/learning1.wxml-->
+<view class="f1">
+  <image mode="widthFix" src="../../images/lT.png" style="width:310px; margin: 10px 0;"></image>
+  <view class="info">
+    <navigator url="/pages/learning2/learning2" open-type="navigate">
+     <image mode="widthFix" src="../../images/l1.png"></image>
+    </navigator>
+  </view>
+  <view class="line"></view>
+  <view class="info">
+    <navigator url="/pages/learning2/learning2" open-type="navigate">
+     <image mode="widthFix" src="../../images/l1.png"></image>
+    </navigator>
+  </view>
+  <view class="line"></view>
+  <view class="info">
+    <navigator url="/pages/learning2/learning2" open-type="navigate">
+     <image mode="widthFix" src="../../images/l1.png"></image>
+    </navigator>
+  </view>
+</view>
+<view class="f1">
+  <image mode="widthFix" src="../../images/lT.png" style="width:310px; margin: 10px 0;"></image>
+  <view class="info">
+     <image mode="widthFix" src="../../images/l1.png"></image>
+  </view>
+  <view class="line"></view>
+  <view class="info">
+     <image mode="widthFix" src="../../images/l1.png"></image>
+  </view>
+  <view class="line"></view>
+  <view class="info">
+     <image mode="widthFix" src="../../images/l1.png"></image>
+  </view>
+</view>
+<view class="f1">
+  <image mode="widthFix" src="../../images/lT1.png" style="width:310px; margin: 10px 0;"></image>
+  <view class="info">
+     <image mode="widthFix" src="../../images/l1.png"></image>
+  </view>
+  <view class="line"></view>
+  <view class="info">
+     <image mode="widthFix" src="../../images/l1.png"></image>
+  </view>
+  <view class="line"></view>
+  <view class="info">
+     <image mode="widthFix" src="../../images/l1.png"></image>
+  </view>
+</view>
+<view class="f1">
+  <image mode="widthFix" src="../../images/lT3.png" style="width:93.48px; margin: 10px 0; position: relative;left:-106px"></image>
+  <view class="info">
+     <image mode="widthFix" src="../../images/l1.png"></image>
+  </view>
+  <view class="line"></view>
+  <view class="info">
+     <image mode="widthFix" src="../../images/l1.png"></image>
+  </view>
+  <view class="line"></view>
+  <view class="info">
+     <image mode="widthFix" src="../../images/l1.png"></image>
+  </view>
+</view>
+

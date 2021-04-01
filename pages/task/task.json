@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "SearchInput": "../../components/SearchIput/SearchInput",
+    "Tabs": "../../components/Tabs/Tabs"
+  },
+  "navigationBarTitleText": "任务"
+}

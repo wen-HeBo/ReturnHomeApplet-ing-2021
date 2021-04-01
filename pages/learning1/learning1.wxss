@@ -1,0 +1,25 @@
+/* pages/learning1/learning1.wxss */
+.f1{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 15px auto;
+  border: 1px solid #eeeeee;
+  border-radius: 8px;
+  padding: 0px 8px;
+  padding-bottom: 5px;
+  
+}
+.line{
+  width: 310px;
+  border-top: 1px solid #eeeeee;
+}
+.info{
+  height: 44px;
+}
+.info image{
+  width: 310px;
+  margin: 12px 0;
+}

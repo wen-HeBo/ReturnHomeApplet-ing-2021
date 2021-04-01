@@ -1,0 +1,31 @@
+/* pages/personage/personage.wxss */
+.user1{
+  width: 324px;
+  margin: 30rpx auto;
+}
+.usimg{
+  display: flex;
+  justify-content: center;
+}
+.uInfo{
+  margin-top: 8px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  border-top: 1px solid #eeeeee;
+  box-shadow: 0 -2rpx #eeeeee;
+}
+.uInfo image{
+  width: 313px;
+  margin: 12px 0;
+}
+.line{
+  width: 313px;
+  border-top: 1px solid #eeeeee;
+}
+.info{
+  height: 44px;
+}

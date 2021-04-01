@@ -1,0 +1,5 @@
+<!--pages/history/history.wxml-->
+<view>  
+  <image mode="widthFix" src="../../images/taskE.png"></image>
+  <image mode="widthFix" src="../../images/taskE.png"></image>
+</view>

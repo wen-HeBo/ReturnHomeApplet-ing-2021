@@ -1,0 +1,7 @@
+<!--pages/details/details.wxml-->
+<view class="alls"></view>
+<view class="back"></view>
+<scroll-view scroll-y>
+  <image mode="widthFix" src="../../images/details.png"></image>
+</scroll-view>
+

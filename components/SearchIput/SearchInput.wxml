@@ -1,0 +1,9 @@
+<!--components/SearchIput/SearchInput.wxml-->
+<view class="search_input">
+  <view class="searchbox">
+    <view class="searchs">
+      <input type="text" class="searchInput" />
+      <icon type="search" color="#47B3FF"></icon>
+    </view>
+  </view>
+</view>

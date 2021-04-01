@@ -1,0 +1,24 @@
+.searchs{
+  display: flex;
+}
+.search_input{
+  background-color: white;
+  padding-top: 20rpx;
+  height: 25px;
+}
+.searchbox{
+  margin: 0 auto;
+  width: 90%;
+  border: 1rpx solid #82CBFF;
+  border-radius: 40rpx;
+  padding: 10rpx 15rpx;
+  background-color: #EFF8FF;
+}
+.searchInput{
+  width: 90%;
+  margin-left: 10rpx;
+}
+icon{
+  width: 25px;
+  height: 25px;
+}

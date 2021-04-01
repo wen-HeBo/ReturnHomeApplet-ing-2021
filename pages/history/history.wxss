@@ -1,0 +1,11 @@
+/* pages/history/history.wxss */
+view{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+image{
+  width: 347px;
+  margin-top: 20px;
+}
